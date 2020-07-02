@@ -1,0 +1,72 @@
+*{
+   /*border: solid 1px skyblue; /*mostrar bordes de los elementos*/
+   text-decoration: none;
+   font-family: 'Baloo 2', cursive;
+}
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+#home{
+    background: url(../img/Imagen2.png) no-repeat center center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#landing-text{
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#landing-text h1{
+    font-size: 350%;
+    margin-bottom: 5%;
+}
+
+.padding{
+    padding-left: 1%;
+    padding: 5%;
+}
+
+/**/
+
+img{
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+section h2 {
+    text-align: center;
+}
+.box1 {
+    border: solid 2px #A189F3 ;
+    border-radius: 20px;
+    background-color: #A189F3;
+    fill-opacity: 45%;
+}
+.boton_more {
+    margin-left: 5%;
+    background-color: #8B57B2;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+}
