@@ -1,0 +1,98 @@
+* {
+    /*border: solid 1px skyblue; /*mostrar bordes de los elementos*/
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+
+}
+html, body, main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    opacity: 70%;
+
+}
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+#home{
+    background: url(../img/backgroung.jpg) no-repeat center center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#landing-text h1{
+    font-size: 350%;
+    margin-bottom: 5%;
+}
+.padding{
+    padding: 80px 0;
+    padding-left: 1%;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.box1 {
+    border: solid 2px white ;
+    border-radius: 20px;
+    
+}
+h2 {
+    text-align: center;
+}
+#caracteristicas h2, #publicar h2 {
+    color: #8B57B2;
+}
+
+/*texto sobre imagen*/
+.c-img {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.c-img img {
+    width: 100%;
+}
+.c-img .text-img {
+    text-align: center;
+    width: 90%;
+    position: absolute;
+}
+
+
+/*PASOS PARA PUBLICAR*/
+.box-pop{
+    border: solid 2px white ;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+.box-pop .txt h5{
+    text-align: center;
+    width: 90%;
+    padding-left: 10%;
+    padding-top:  10%;
+    color: black;
+}
+.box-pop:hover{
+    background-color: white;
+    color: black;
+}
+

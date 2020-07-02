@@ -1,0 +1,242 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family:'Baloo 2', cursive;
+;
+}
+header {
+    width: 100%;
+    background: black;
+    height: 50px;
+    position: fixed;    
+}
+#boton_menu {
+    display: none;    
+}
+header label {
+    display:  none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #ffff;   
+}
+
+header label:hover {
+    cursor:  pointer;
+    background: rgba(0,0,0,0,0.3);
+    
+}
+.logo{
+    width: 131px;
+    height: 30px;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;    
+    justify-content: flex-end;
+    font-size: 18px ;
+}
+.menu li a {    
+    display: block;
+    padding: 10px 10px;
+    color: #ffffff;     
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    header label {
+        display: block;         
+    }
+    .menu {
+        position: absolute;
+        background: #707070;
+        width: 50%;
+        margin-left: -70%;
+        transition:  all 0.5s;
+        
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li {
+        border-top: 1px solid #ffff;
+    }
+    #boton_menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+.principal {
+    padding: 25%;
+    text-align: center;
+    background-image: url(../img/Imagen2.png);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    font-weight: normal;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family:'Baloo 2', cursive;
+    margin: 2px;
+    line-height:30px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    font-family:'Baloo 2', cursive;
+}
+.segunda{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    margin:auto;
+}
+.i1{
+    width: 350px;
+    height: 450px;
+    margin-left: 170px;
+    cursor:pointer;
+}
+.i2{
+    width: 350px;
+    height: 450px;
+    margin-left: 60px;
+    cursor:pointer;
+}
+.i3{
+    width: 350px;
+    height: 450px;
+    margin-left: 60px;
+    cursor:pointer;
+}
+.tercera{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    margin:auto;
+}
+.i4{
+    width: 350px;
+    height: 340px;
+    margin-left: 170px;
+    cursor:pointer;
+}
+.i5{
+    width: 350px;
+    height: 340px;
+    margin-left: 60px;
+    cursor:pointer;
+}
+.i6{
+    width: 350px;
+    height: 340px;
+    margin-left: 60px;
+    cursor:pointer;
+}
+.cuarta{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    margin:auto;
+}
+.i7{
+    width: 350px;
+    height: 450px;
+    margin-left: 170px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.i8{
+    width: 350px;
+    height: 450px;
+    margin-left: 60px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.i9{
+    width: 350px;
+    height: 450px;
+    margin-left: 60px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.quinta{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    margin:auto;
+}
+#rectangle{
+    width:1190px;
+    height:450px;
+    background:#A189F3;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    line-height:5px;
+}
+#gaea1{
+    color:black;
+    margin-left: 230px;
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+    line-height:18px;
+}
+.i10{
+    width: 250px;
+    height: 200px;
+    margin-left: 170px;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor:pointer;
+}
+.i11{
+    width: 230px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.i12{
+    width: 230px;
+    height: 200px;
+    margin-left: 60px;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor:pointer;
+}
+#div-conocer button{
+    color: white;
+    background-color: #781AFF;
+    border-radius:15px;
+    font-family: 'Baloo 2', cursive;
+    margin-left: 510px;
+}
+button{
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    background-color: #781AFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+#final{
+    width: 100%;
+    background: black;
+    height: 80px;
+}
+.redes{
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+
+#boton-organinzadores{
+    text-decoration: none;
+    color: white ;
+}
