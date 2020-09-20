@@ -4,6 +4,6 @@ En esa carpeta se encuentra los landing page, para los dos segmentos
 
 # No ingresar a la carpeta public, del inicio.
 
- $G =  \{V,E\} $
+ $\ G =  \{V,E\} $
 
 **Theorem**: The translation $[\![e]\!]$ given by
